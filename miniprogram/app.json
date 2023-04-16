@@ -1,0 +1,36 @@
+{
+ 
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/logs/logs"
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+   
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "问"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我"
+      }
+    ]
+  },
+  "usingComponents": {
+    "custom-tab-bar": "/custom-tab-bar/index"
+  }
+   
+  
+}

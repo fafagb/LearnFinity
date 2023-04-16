@@ -1,0 +1,31 @@
+<view class="container">
+  <swiper class="swiper" autoplay="true" interval="3000" duration="500">
+    <swiper-item>
+      <image class="swiper-image" src="/resources/images/banner1.jpg" />
+    </swiper-item>
+    <swiper-item>
+      <image class="swiper-image" src="/resources/images/banner2.jpg" />
+    </swiper-item>
+  </swiper>
+
+  <view class="search-bar">
+    <image class="logo" src="/resources/images/logo.png" />
+    <input class="search-input" placeholder="搜索课程、资源或答疑" />
+  </view>
+
+  
+
+  <view class="core-modules">
+    <view class="module-item">个性化课程</view>
+    <view class="module-item">自适应学习资源</view>
+    <view class="module-item">AI助教</view>
+    <view class="module-item">成长报告</view>
+  </view>
+
+  <view class="featured-courses-title">精选课程</view>
+  <view class="featured-courses">
+    <view class="course-item">课程1</view>
+    <view class="course-item">课程2</view>
+    <view class="course-item">课程3</view>
+  </view>
+</view>

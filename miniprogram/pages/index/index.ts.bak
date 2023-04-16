@@ -1,0 +1,33 @@
+interface IData {
+  // 定义数据类型，例如课程列表等
+}
+
+Page({
+  data: {
+    // 数据绑定，例如课程列表等
+  },
+  onLoad(options: Record<string, string>) {
+    // 页面加载时执行的函数，例如获取数据、初始化状态等
+  },
+  onReady() {
+    // 页面渲染完成时执行的函数
+  },
+  onShow() {
+    // 页面显示时执行的函数
+  },
+  onHide() {
+    // 页面隐藏时执行的函数
+  },
+  onUnload() {
+    // 页面卸载时执行的函数
+  },
+  onPullDownRefresh() {
+    // 页面下拉刷新时执行的函数
+  },
+  onReachBottom() {
+    // 页面上拉触底时执行的函数
+  },
+  onShareAppMessage() {
+    // 用户点击右上角分享时执行的函数
+  },
+});

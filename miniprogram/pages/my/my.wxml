@@ -1,0 +1,5 @@
+<view class="container">
+  <view class="membership">
+    <button class="membership-btn" bindtap="becomeMember">成为会员（每月10元）</button>
+  </view>
+</view>

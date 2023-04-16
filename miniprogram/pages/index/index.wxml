@@ -1,0 +1,37 @@
+<view class="container">
+  <scroll-view class="chat-area" scroll-y="true" wx:if="{{currentTab === 0}}">
+    <view class="messages">
+      <view class="message" wx:for="{{messages}}" wx:key="*this">
+        <text>{{item.from}}: {{item.content}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="input-area" wx:if="{{currentTab === 0}}">
+    <input
+      class="input"
+      placeholder="请输入消息"
+      bindinput="handleInput"
+      value="{{input}}"
+    />
+    <image class="send" src="../../resources/send.png" bindtap="sendMessage"/>
+  </view>
+  <view wx:if="{{currentTab === 1}}">
+    <text>这里是"我的"页面内容。</text>
+  </view>
+  <!-- <view class="bottom-tabbar">
+    <view
+      class="tab-item {{currentTab === 0 ? 'active' : ''}}"
+      bindtap="switchToIndex"
+      data-tab="0"
+    >
+      <text>问</text>
+    </view>
+    <view
+      class="tab-item {{currentTab === 1 ? 'active' : ''}}"
+      bindtap="switchToMy"
+      data-tab="1"
+    >
+      <text>我的</text>
+    </view>
+  </view> -->
+</view>

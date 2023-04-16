@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.membership {
+  margin-top: 20px;
+}
+
+.membership-btn {
+  background-color: #1aad19;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
